@@ -1,0 +1,235 @@
+/**
+ * Bunge Practice - Main Stylesheet
+ * Hand-crafted and cleaned from TYPO3 artifacts.
+ */
+
+body { 
+    background: url('../images/hg_verlauf.png') repeat-x scroll left top rgb(26, 76, 105); 
+    padding: 0px; 
+    text-align: center; 
+    margin: 0px; 
+    position: relative; 
+    overflow: visible; 
+    font-family: verdana, sans-serif; 
+    font-size: 0.75em; 
+}
+
+p { padding: 0px; margin: 0px; }
+li, ul { margin: 0px; padding: 0px; }
+img { border: medium none; }
+
+a { 
+    margin: 0px; 
+    padding: 0px; 
+    font-weight: normal; 
+    color: rgb(65, 150, 189); 
+    text-decoration: none; 
+}
+
+a:hover { color: rgb(255, 55, 87); }
+
+#main { 
+    display: block; 
+    position: relative; 
+    width: 997px; 
+    margin: auto; 
+}
+
+#header { 
+    background: url('../images/headergrafik.png') no-repeat scroll left top transparent; 
+    height: 320px; 
+    margin-bottom: 0pt; 
+    position: relative; 
+    text-align: center; 
+    width: 997px; 
+}
+
+.spacer { position: relative; clear: both; }
+
+.backbox { 
+    background: url('../images/fauxcontentback.png') repeat-y scroll left top rgb(244, 248, 251); 
+    position: relative; 
+}
+
+#contentwrap { 
+    background: url('../images/fauxcontentback.png') repeat-y scroll left top rgb(244, 248, 251); 
+    display: block; 
+    margin: auto; 
+    position: relative; 
+    height: 100%; 
+}
+
+#content { 
+    background-color: rgb(244, 248, 251); 
+    display: block; 
+    float: right; 
+    left: -88px; 
+    margin: auto; 
+    padding: 0pt; 
+    position: relative; 
+    text-align: left; 
+    width: 629px; 
+}
+
+#actualcontent { 
+    position: relative; 
+    padding: 0px 22px 26px; 
+    top: -2px; 
+}
+
+.titelgrafik { 
+    display: block; 
+    height: 164px; 
+    left: 262px; 
+    position: absolute; 
+    top: 108px; 
+    width: 647px; 
+    z-index: 999; 
+}
+
+#leftcol { 
+    background: url('../images/lc_muster.png') repeat-y scroll left top rgb(26, 76, 105); 
+    display: block; 
+    float: left; 
+    left: 0pt; 
+    position: relative; 
+    text-align: left; 
+    top: 0pt; 
+    width: 280px; 
+    z-index: 50; 
+}
+
+#adressbereich { 
+    font-size: 0.8em; 
+    margin-top: 5px; 
+    color: rgb(105, 151, 191); 
+    position: relative; 
+    width: 270px; 
+    text-align: center; 
+    top: 48px; 
+}
+
+.adname { font-weight: bold; line-height: 20px; font-size: 1.2em; }
+
+#rightcol { 
+    background-color: rgb(244, 248, 251); 
+    display: block; 
+    float: right; 
+    position: relative; 
+    width: 50px; 
+}
+
+#footer { 
+    position: relative; 
+    height: 86px; 
+    background: url('../images/footergrafik.png') no-repeat scroll left bottom transparent; 
+    margin-bottom: 25px; 
+    clear: both; 
+}
+
+#footernavi { 
+    position: relative; 
+    text-align: center; 
+    padding-left: 280px; 
+    padding-top: 60px; 
+    color: rgb(255, 255, 255); 
+}
+
+#menue { position: relative; width: 280px; }
+.menue { display: block; position: relative; }
+
+#menue .active a { 
+    background: none repeat scroll 0pt 0pt rgb(42, 122, 168); 
+    color: rgb(255, 255, 255); 
+    display: inline; 
+    font-weight: bold; 
+    position: relative; 
+}
+
+#menue a { 
+    color: rgb(0, 0, 0); 
+    font-size: 12px; 
+    font-weight: normal; 
+    height: 20px; 
+    line-height: 20px; 
+    padding: 2px 60px 3px 6px; 
+    position: relative; 
+    right: 19px; 
+    text-decoration: none; 
+}
+
+#menue a:hover { font-weight: bold; }
+#menue a:active, .menue a:focus { font-weight: bold; }
+
+#menue li { 
+    display: block; 
+    list-style: none outside none; 
+    margin-top: 3px; 
+    position: relative; 
+    text-align: right; 
+    text-decoration: none; 
+}
+
+#actualcontent > div > p:first-child:first-letter { 
+    letter-spacing: 0pt; 
+    text-transform: uppercase; 
+    color: rgb(65, 150, 189); 
+    font-family: verdana, sans-serif; 
+    font-size: 3.5em; 
+    float: left; 
+    margin: 3px 2px -3px 0px; 
+    line-height: 0.7; 
+    top: 3px; 
+    font-weight: bold; 
+}
+
+.modernzahn { 
+    height: 131px; 
+    left: 130px; 
+    position: absolute; 
+    top: 80px; 
+    width: 997px; 
+}
+
+.menue li[class="active"] img { 
+    left: 261px; 
+    position: absolute; 
+    top: -5px; 
+}
+
+#menue-startseite .titelgrafik { 
+    background: url('../images/startseite.png') no-repeat scroll 0pt 0pt transparent; 
+}
+
+#footernavi .menue-foot li { 
+    display: inline; 
+    position: relative; 
+    margin-right: 10px; 
+    padding-left: 10px; 
+    background: url('../images/punktone.png') no-repeat scroll 0pt 50% transparent; 
+}
+
+#footernavi .menue-foot li:first-child { 
+    display: inline; 
+    position: relative; 
+    margin-right: 10px; 
+    padding-left: 10px; 
+    background: none repeat scroll 0% 0% transparent; 
+}
+
+#footernavi a { 
+    margin: 0px; 
+    padding: 0px; 
+    font-weight: normal; 
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+#footernavi a:hover { text-decoration: underline; }
+
+.homelink { 
+    position: absolute; 
+    left: 10px; 
+    top: 20px; 
+    z-index: 999; 
+}
