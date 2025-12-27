@@ -561,4 +561,16 @@ footer {
         flex-direction: column;
         gap: 15px;
     }
+
+    /* Mobile Table Optimization */
+    .schedule-table th,
+    .schedule-table td {
+        padding: 12px 10px;
+        font-size: 0.85rem;
+    }
+
+    .schedule-table th {
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+    }
 }
