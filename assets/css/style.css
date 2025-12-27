@@ -151,15 +151,14 @@ header.scrolled .logo img {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
-    min-height: 600px;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background: linear-gradient(rgba(26, 76, 105, 0.03), rgba(26, 76, 105, 0.07)), 
                 url('../images/blauer_hintergrund_banner.png');
     background-size: cover;
     background-position: center;
-    padding-top: 80px;
+    padding: 120px 0 80px;
 }
 
 .hero-content {
