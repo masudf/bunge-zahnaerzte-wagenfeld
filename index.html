@@ -3,85 +3,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bunge - Startseite</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all">
-    <script src="assets/js/javascript_92bc0eb2aa.js" type="text/javascript"></script>
+    <title>Bunge - Gemeinschaftspraxis für Zahnheilkunde</title>
+    <!-- Fonts: Serif for tradition, Sans-serif for modern clarity -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body id="menue-startseite">
-    <div id="main">
-        <div id="header">
-            <div class="homelink">
-                <a href="index.html">
-                    <img src="assets/images/dummy.png" alt="www.zahnarzt-bunge-wagenfeld.de" title="www.zahnarzt-bunge-wagenfeld.de">
-                </a>
-            </div>
-            <div class="modernzahn">
-                <img src="assets/images/mittradition.png" alt="Moderne Zahnmedizin mit Tradition" title="Moderne Zahnmedizin mit Tradition">
-            </div>
-            <div class="titelgrafik">
-                <img src="assets/images/f2d4e63a30.png" alt="Titlegrafik" border="0" height="164" width="647">
-            </div>
+<body>
+
+<header id="main-header">
+    <div class="container header-inner">
+        <div class="logo">
+            <a href="#home">
+                <img src="assets/images/Zahnärzte-Wagenfeld.png" alt="Zahnarzt Bunge Wagenfeld">
+            </a>
         </div>
-        <div class="backbox">
-            <div id="contentwrap">
-                <div id="content">
-                    <div id="actualcontent">
-                        <div id="c143" class="csc-default">
-                            <p class="bodytext">Herzlich Willkommen auf der Internetpräsenz der Gemeinschaftspraxis für Zahnheilkunde Dr. Bunge in Wagenfeld!</p>
-                            <p class="bodytext">&nbsp;</p>
-                            <p class="bodytext">Die optimale Unterstützung Ihrer Zahnhygiene ist seit zwei Generationen unser Anliegen. Unsere Praxis setzt dabei auf traditionelle Werte in Verbindung mit neuesten medizinischen Erkenntnissen.</p>
-                            <p class="bodytext">&nbsp;</p>
-                            <p class="bodytext">Unsere Zahnärzte bilden sich regelmäßig auf Fortbildungen weiter und begutachten die neusten medizinischen Verfahren und Techniken. Wir glauben an langlebige, vertrauensvolle Beziehungen zu unseren Patienten und bieten nur Methoden an, die bewährt sind, echten Nutzen stiften und wirklich überzeugen.</p>
-                            <p class="bodytext">&nbsp;</p>
-                            <p class="bodytext">Wir laden Sie ein sich auf dieser Website weiter über uns und unsere Praxis zu informieren. Insbesondere möchten wir Sie auf unseren modernen Therapieansatz für Angstpatienten hinweisen.</p>
-                            <p class="bodytext">Wir freuen uns auf Ihren Besuch!</p>
-                            <p class="bodytext">&nbsp;</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="leftcol">
-                    <div style="text-align: center;">
-                        <div id="menue">
-                            <ul class="menue">
-                                <li class="active">
-                                    <a href="index.html">Startseite</a>
-                                </li>
-                                <li>
-                                    <a href="sprechzeiten.html">Sprechzeiten</a>
-                                </li>
-                                <li>
-                                    <a href="kontakt.html">Kontakt</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="adressbereich">
-                            <span class="adname">Wulf Bunge</span><br>
-                            <span class="adname">Nilofar Baqaie-Bunge</span><br>
-                            <span class="adname">Dr. Günther Bunge</span><br>
-                            <br>
-                            Hauptstr. 61<br>
-                            49419 Wagenfeld<br>
-                            Deutschland<br>
-                            <br>
-                            Telefon: 05444/201<br>
-                            Fax: 05444/5870<br>
-                        </div>
-                    </div>
-                </div>
-                <div id="rightcol"></div>
+        <nav id="main-nav">
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="spacer"></div>
-        </div>
-        <div id="footer">
-            <div id="footernavi">
-                <ul class="menue-foot">
-                    <li><a href="index.html">Startseite</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                    <li><a href="impressum.html">Impressum</a></li>
-                    <li><a href="datenschutz.html">Datenschutzerklärung</a></li>
-                </ul>
-            </div>
+            <ul id="nav-list">
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#praxis">Über Uns</a></li>
+                <li><a href="#zeiten">Sprechzeiten</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="header-action">
+            <a href="tel:+495444201" class="btn-tel"><span>05444 / 201</span></a>
         </div>
     </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-flex">
+                <div class="hero-logo-main">
+                    <img src="assets/images/Zahnärzte-Wagenfeld.png" alt="Bunge Logo">
+                </div>
+                <div class="hero-text">
+                    <span class="sub-headline">Seit zwei Generationen in Wagenfeld</span>
+                    <h1>Moderne Zahnmedizin <br><span class="accent">mit Tradition</span></h1>
+                <p>Herzlich Willkommen in der Gemeinschaftspraxis für Zahnheilkunde Bunge. Wir vereinen traditionelle Werte mit modernster Medizin.</p>
+                <div class="hero-btns">
+                    <a href="#kontakt" class="btn primary">Termin vereinbaren</a>
+                    <a href="#praxis" class="btn secondary">Mehr erfahren</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="praxis" class="section">
+        <div class="container">
+            <div class="grid-2">
+                <div class="text-block">
+                    <h2>Willkommen in unserer Praxis</h2>
+                    <p class="lead">Die optimale Unterstützung Ihrer Zahnhygiene ist seit zwei Generationen unser Anliegen.</p>
+                    <p>Unsere Praxis setzt dabei auf traditionelle Werte in Verbindung mit neuesten medizinischen Erkenntnissen. Unsere Zahnärzte bilden sich regelmäßig auf Fortbildungen weiter und begutachten die neusten medizinischen Verfahren und Techniken.</p>
+                    <p>Wir glauben an langlebige, vertrauensvolle Beziehungen zu unseren Patienten und bieten nur Methoden an, die bewährt sind, echten Nutzen stiften und wirklich überzeugen.</p>
+                    <p>Wir laden Sie ein, sich weiter über uns und unsere Praxis zu informieren. Insbesondere möchten wir Sie auf unseren modernen Therapieansatz für <strong>Angstpatienten</strong> hinweisen.</p>
+                </div>
+                <div class="info-card">
+                    <h3 class="team-title">Unsere Zahnärzte</h3>
+                    <ul class="team-list">
+                        <li><strong>Wulf Bunge</strong></li>
+                        <li><strong>Nilofar Baqaie-Bunge</strong></li>
+                        <li><strong>Dr. Günther Bunge</strong></li>
+                    </ul>
+                    <hr>
+                    <p class="address">
+                        <strong>Gemeinschaftspraxis Bunge</strong><br>
+                        Hauptstr. 61<br>
+                        49419 Wagenfeld
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="zeiten" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sprechzeiten</h2>
+                <p>Wir sind für Sie da und freuen uns auf Ihren Besuch. <br>Bitte vereinbaren Sie nach Möglichkeit vorab einen Termin.</p>
+            </div>
+            <div class="table-responsive">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Vormittag</th>
+                            <th>Nachmittag</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Montag</td>
+                            <td>08:00 - 12:00 Uhr</td>
+                            <td>14:00 - 18:00 Uhr</td>
+                        </tr>
+                        <tr>
+                            <td>Dienstag</td>
+                            <td>08:00 - 12:00 Uhr</td>
+                            <td>14:00 - 18:00 Uhr</td>
+                        </tr>
+                        <tr>
+                            <td>Mittwoch</td>
+                            <td>08:00 - 12:00 Uhr</td>
+                            <td class="closed">-</td>
+                        </tr>
+                        <tr>
+                            <td>Donnerstag</td>
+                            <td>08:00 - 12:00 Uhr</td>
+                            <td>14:00 - 18:00 Uhr</td>
+                        </tr>
+                        <tr>
+                            <td>Freitag</td>
+                            <td>08:00 - 12:00 Uhr</td>
+                            <td class="closed">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="section">
+        <div class="container">
+            <div class="grid-2">
+                <div class="contact-info">
+                    <h2>Kontakt aufnehmen</h2>
+                    <p>Sie möchten einen Termin vereinbaren oder haben noch weiterführende Fragen? Wir freuen uns auf Ihren Anruf!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="method">
+                            <span class="icon">📞</span>
+                            <div>
+                                <strong>Telefon</strong><br>
+                                <a href="tel:+495444201" class="link-tel">05444 / 201</a>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <span class="icon">📠</span>
+                            <div>
+                                <strong>Fax</strong><br>
+                                <span>05444 / 5870</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <h3>Anfahrt</h3>
+                    <p>Unsere Praxis liegt zentral in Wagenfeld in der Hauptstraße 61.</p>
+                    <div class="map-placeholder">
+                        <p>Hauptstr. 61, 49419 Wagenfeld</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Hauptstr.+61+49419+Wagenfeld" target="_blank" rel="noopener" class="btn secondary small">Route planen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container footer-inner">
+        <div class="footer-info">
+            <div class="footer-logo">Bunge</div>
+            <p>&copy; 2025 Gemeinschaftspraxis Bunge. <br>Alle Rechte vorbehalten.</p>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="datenschutz.html">Datenschutzerklärung</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<script>
+    // Mobile Menu Toggle
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navList = document.getElementById('nav-list');
+    
+    mobileMenu.addEventListener('click', function() {
+        this.classList.toggle('active');
+        navList.classList.toggle('show');
+    });
+
+    // Close menu when link is clicked
+    document.querySelectorAll('#nav-list a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+            navList.classList.remove('show');
+        });
+    });
+
+    // Smooth Scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Header Scroll Effect
+    window.addEventListener('scroll', function() {
+        const header = document.getElementById('main-header');
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    // Intersection Observer for Active Menu
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('#nav-list a');
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '-20% 0px -70% 0px',
+        threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const id = entry.target.getAttribute('id');
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${id}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        });
+    }, observerOptions);
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+</script>
+
 </body>
 </html>
